@@ -4,7 +4,7 @@ const User = require("../models/user");
 
 //GET handler for sign up page.
 router.get("/", function (req, res, next) {
-  res.render("sign-up", { title: "Sign Up", user: req.user });
+  res.render("sign-up", { title: "Sign Up" });
 });
 
 //POST handler for sign up page.
