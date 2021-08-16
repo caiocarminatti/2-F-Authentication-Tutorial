@@ -21,6 +21,10 @@ const schemaDefinition = {
         type: Number,
         default: 0
     },
+    verificationStatus: {
+        type: Boolean,
+        default: false
+    },
     oauthId: {
         type: String
     },

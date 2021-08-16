@@ -18,7 +18,7 @@ router.get('/', function(req, res, next) {
 router.post("/", passport.authenticate('local', {
   successRedirect: "/2f-authentication",
   failureRedirect: "/login",
-  failureMessage: "Username and/or Password are not valid!",
+  failureMessage: "Username and/or Password are not valid!"
 })); 
 
 module.exports = router;
