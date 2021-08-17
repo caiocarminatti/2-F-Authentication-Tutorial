@@ -35,7 +35,7 @@ router.get("/email", IsLoggedIn, function (req, res, next) {
 
 //GET handler for 2f authentication page/sms.
 router.get("/sms", IsLoggedIn, function (req, res, next) {
-  res.redirect ("/2f-authentication");
+  res.redirect("/2f-authentication");
 });
 
 module.exports = router;

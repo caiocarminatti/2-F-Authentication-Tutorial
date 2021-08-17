@@ -15,7 +15,7 @@ const schemaDefinition = {
     },
     verificationCode: {
         type: String,
-        default: '010101'
+        default: "QZ9DKRL43KHJFW031WWB*"
     },
     verificationAttempts: {
         type: Number,
