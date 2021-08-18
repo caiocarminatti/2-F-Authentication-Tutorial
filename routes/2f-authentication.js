@@ -28,12 +28,12 @@ router.post("/", IsLoggedIn, function (req, res, next) {
   });
 });
 
-//GET handler for 2f authentication page/email.
+//GET handler for 2f authentication/email page.
 router.get("/email", IsLoggedIn, function (req, res, next) {
   res.redirect("/2f-authentication");
 });
 
-//GET handler for 2f authentication page/sms.
+//GET handler for 2f authentication/sms page.
 router.get("/sms", IsLoggedIn, function (req, res, next) {
   res.redirect("/2f-authentication");
 });
