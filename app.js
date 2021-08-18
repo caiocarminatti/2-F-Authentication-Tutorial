@@ -58,7 +58,8 @@ app.use('/2f-authentication', authenticationRouter);
 app.use('/auth-success', authSuccessRouter);
 
 //Mongoose connection
-const connectionString =  'mongodb+srv://admin:JavascriptTutorial@cluster0.kw0hw.mongodb.net/2f-authentication-tutorial';
+const connectionString =  'mongodb+srv://admin:<password>@cluster0.pyn86.mongodb.net/test';
+
 mongoose.connect(connectionString, {useNewUrlParser: true, useUnifiedTopology: true})
   .then((message) => {
     console.log('Connected succesfully!');
